@@ -160,6 +160,11 @@ i.sicon-whatsapp2 {
     font-weight:bold !important;
 }
 
+ul.footer-links {
+	display:flex;
+	flex-direction:column;
+}
+
 		/* Edit Color of Social Icons */
 
 footer .footer-main .footer-item .social__item a {border-color:#FFF;}
