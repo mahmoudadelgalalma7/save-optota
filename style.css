@@ -159,3 +159,19 @@ i.sicon-whatsapp2 {
     border-radius: 5px;
     font-weight:bold !important;
 }
+
+
+footer .footer-main .footer-item .social__item a {border-color:#FFF;}
+footer .footer-main .footer-item .social__item a:nth-of-type(1) {
+	background: linear-gradient(45deg, #F69801, #F60E4D,#F601D1);
+}
+footer .footer-main .footer-item .social__item a:nth-of-type(2) {
+	background-color:#1D9BF0;
+}
+footer .footer-main .footer-item .social__item a *{
+color:#FFF !important;
+
+}
+
+
+
