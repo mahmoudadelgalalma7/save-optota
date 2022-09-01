@@ -174,8 +174,17 @@ footer .footer-main .footer-item .social__item:nth-of-type(1) a {
 footer .footer-main .footer-item .social__item:nth-of-type(2) a {
 	background-color:#1D9BF0;
 }
+footer .footer-main .footer-item .social__item:nth-of-type(3) a {
+	background-color:#F5F401;
+	border-color:#111 !important;
+}
+
 footer .footer-main .footer-item .social__item a *{
 color:#FFF !important;
+}
+
+footer .footer-main .footer-item .social__item:nth-of-type(3) a * {
+	color:#111 !important;
 }
 
 footer .footer-main .footer-item .social__item a:hover{
