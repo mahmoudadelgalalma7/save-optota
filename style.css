@@ -160,18 +160,27 @@ i.sicon-whatsapp2 {
     font-weight:bold !important;
 }
 
+		/* Edit Color of Social Icons */
 
 footer .footer-main .footer-item .social__item a {border-color:#FFF;}
-footer .footer-main .footer-item .social__item a:nth-of-type(1) {
-	background: linear-gradient(45deg, #F69801, #F60E4D,#F601D1);
+footer .footer-main .footer-item .social__item:nth-of-type(1) a {
+	background-image: linear-gradient(45deg, #F69801, #F60E4D,#F601D1);
 }
-footer .footer-main .footer-item .social__item a:nth-of-type(2) {
+footer .footer-main .footer-item .social__item:nth-of-type(2) a {
 	background-color:#1D9BF0;
 }
 footer .footer-main .footer-item .social__item a *{
 color:#FFF !important;
-
 }
+
+footer .footer-main .footer-item .social__item a:hover{
+    background-color:#FFF !important;
+    background-image:none;
+}
+footer .footer-main .footer-item .social__item a:hover * {
+    color:#000 !important;
+}
+
 
 
 
