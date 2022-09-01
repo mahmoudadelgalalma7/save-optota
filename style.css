@@ -1,0 +1,161 @@
+body * {
+    font-family: 'DroidArabicKufiRegular';
+   font-weight: normal;
+   font-style: normal;
+}
+
+                    /*Edit Header*/
+                    
+.site-header {
+    background-color:#FFF;
+}
+header.site-header.sticky {
+    border-radius: 0px 0px 40px 40px;
+    background: linear-gradient(70deg, #c17676 0% 20%,#FFF 40% 60%, #ffa93e 80% 100%);
+}
+
+                    /* Edit Sliders  */
+
+.container.p-0.px-md-3 {
+    width:100%;
+    margin:0;
+    padding:0;
+}
+
+
+
+                    /* Edit Product Cover */
+                    
+.product.contain {
+    box-shadow: 2px 2px 12px rgba(0,0,0,0.3) ;
+    border-radius: 15px ;
+}
+
+.product.contain:hover {
+    box-shadow: -2px -2px 12px rgba(0,0,0,0.3)  ;
+    
+}
+
+.section-actions a
+{
+    /*background: linear-gradient(70deg, #c17676, #ffbe00);*/
+    background: linear-gradient(70deg, #c17676 0% 20%,#FFF 40% 60%, #ffa93e 80% 100%);
+    color:#111;
+}
+button#sort-toggle {
+    /*background: linear-gradient(70deg, #c17676, #ffbe00);*/
+    background: linear-gradient(70deg, #c17676 0% 20%,#FFF 40% 60%, #ffa93e 80% 100%);
+    color:#111;
+    border:0;
+}
+#sort-toggle:hover,
+#sort-toggle:active,
+#sort-toggle:focus
+{
+    color:#FFF;
+}
+.section--title:before {
+    content: "";
+    display: inline-block;
+    width: 4px;
+    height: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: -15px;
+    border-radius: 4px;
+    background: linear-gradient(45deg, #c17676, #feee00);
+}
+
+.section--title span,
+h3.product-title.mb-0{
+    font-weight:bold;
+}
+
+h3.product-title.mb-0,
+h4.product-subtitle{
+    color:#111 !important;
+}
+
+span.promotion-title {
+    color:#111 !important;
+    background: linear-gradient(70deg, #c17676 0% 20%,#FFF 40% 60%, #ffa93e 80% 100%);
+}
+
+img.lazyloaded {
+    object-fit: fill !important;
+}
+
+@media (min-width:992px) {
+     .product>a .img-cont img {
+         min-height:320px;
+     }   
+    span.img-cont {
+        max-height:320px;
+        min-height:320px;
+    }
+    
+} 
+
+@media (max-width:762px) {
+     .product>a .img-cont img {
+         min-height:250px;
+     }   
+    span.img-cont {
+        max-height:250px;
+        min-height:250px;
+    }
+    
+} 
+
+.product-price {
+    color: #000;
+    font-weight: bold;
+}
+         /* Edit Testomonials */
+section.u-light.py-5.text-center .section--title:before {
+    content: "";
+    display: inline-block;
+    width: 60px;
+    height: 4px;
+    position: absolute;
+    border-radius: 4px;
+    left: calc(50% - 30px);
+    bottom: -15px;
+    right:initial;
+    transform:translateY(0);
+    top:initial;
+}
+.section--title.mb-4 {
+    margin-bottom:35px !important;
+}
+
+                    /* Edit Footer */
+
+.footer-main {
+    background-color: #ffbe00;
+    color: #111;
+}
+.footer-main *{
+    color: #111 !important;
+}
+
+.footer-main .footer-title span {
+    font-weight:bold !important;
+}
+footer .footer-main .footer-item .social__item a {
+    border: 1px solid #111;
+}
+
+b.d-inline-block.text-plain.v-align-middle {
+    color: #111 !important;
+    font-weight: bold;
+}
+
+
+i.sicon-whatsapp2 {
+    color: #28af44!important;
+    padding: 0px 5px;
+    border-radius: 5px;
+    font-weight:bold !important;
+}
