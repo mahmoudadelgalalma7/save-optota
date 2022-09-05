@@ -64,7 +64,7 @@ button#sort-toggle {
     transform: translateY(-50%);
     right: -15px;
     border-radius: 4px;
-    background: linear-gradient(45deg, #a5a4ab, #feee00);
+    background: linear-gradient(45deg, #a5a4ab, #ffbe00);
 }
 
 .section--title span,
